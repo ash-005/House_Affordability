@@ -15,8 +15,9 @@ This project aims to classify houses into four categories of affordability based
 3. **Luxury**  
 4. **Expensive**
 
-A variety of machine learning models were implemented and evaluated, with **XGBoost** achieving the highest accuracy score of **76.6%**.
-
+Various machine learning models were implemented and evaluated, with **XGBoost** achieving the highest accuracy score of **76.6%**.
+---
+#### Deployed Site: [House Genie](https://housegenie.streamlit.app/)
 ---
 #### **Dataset:** [California Housing](https://www.kaggle.com/datasets/camnugent/california-housing-prices/data)
 #### **Dataset Features**:  
@@ -58,10 +59,10 @@ Among these, **XGBoost** emerged as the most accurate, with a classification acc
    - Created derived features such as **rooms_per_household**, **population_per_household**, and **bedrooms_per_room**.  
 
 3. **Model Training and Hyperparameter Tuning**:  
-   - Implemented the models and fine-tuned hyperparameters using techniques like grid search and cross-validation.
+   - Implemented the models and fine-tuned hyperparameters using grid search and cross-validation techniques.
 
 4. **Model Evaluation**:  
-   - Evaluated all models on metrics such as accuracy, precision, recall, and F1-score.  
+   - Evaluated all models on accuracy, precision, recall, and F1-score metrics.  
 
 5. **Results**:  
    - The **XGBoost** classifier provided the best results, making it the recommended model for deployment.
